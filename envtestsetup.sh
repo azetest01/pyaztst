@@ -1,3 +1,5 @@
 #!/bin/sh
 /usr/bin/lsb_release -a
-apt-get install python3.6-venv
+add-apt-repository universe
+sudo apt-get update
+apt-get install python3-venv
