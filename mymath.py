@@ -11,4 +11,5 @@ def multiply(a, b):
  
  
 def divide(numerator, denominator):
-    return float(numerator) / denominator
+    return float(numerator) / float(denominator)
+
